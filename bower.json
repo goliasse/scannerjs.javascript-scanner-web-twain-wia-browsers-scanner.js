@@ -1,5 +1,5 @@
 {
-  "name": "scanner",
+  "name": "scanner.js",
   "description": "ScannerJS: JavaScript web scan JPG PDF images from TWAIN WIA scanners in browser (Chrome, Edge, Firefox or IE)",
   "main": "dist/scanner.js",
   "authors": [
