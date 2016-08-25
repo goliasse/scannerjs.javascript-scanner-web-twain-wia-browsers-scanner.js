@@ -8,10 +8,20 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('0.9.0');
-  api.addFiles([
-    'dist/scanner.js',
-	'dist/scannerjs.css',
+  
+  var assets = [
 	'dist/asprise_scan.jar',
 	'dist/asprise_scan-legacy.jar'
+  ];
+  
+  if (api.addAssets) {
+    api.addAssets(assets, 'client');
+  } else {
+    api.addFiles(assets, 'client', { isAsset: true });
+  }  
+  
+  api.addFiles([
+    'dist/scanner.js',
+	'dist/scannerjs.css'
   ], 'client');
 });
