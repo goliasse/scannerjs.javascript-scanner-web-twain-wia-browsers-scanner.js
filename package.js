@@ -1,7 +1,7 @@
 Package.describe({
   name: 'scannerjs:scanner.js',
-  version: '0.0.1',
-  summary: 'ScannerJS: JavaScript web scan JPG PDF images from TWAIN WIA scanners in browser (Chrome, Edge, Firefox or IE)',
+  version: '1.0.3',
+  summary: 'ScannerJS: JavaScript web scan JPG PDF images from TWAIN scanners in browsers Chrome Firefox IE)',
   git: 'https://github.com/Asprise/scannerjs.javascript-scanner-web-twain-wia-browsers-scanner.js',
   documentation: 'README.md'
 });
